@@ -1,0 +1,19 @@
+ul {
+  padding-inline-start: 0;
+}
+
+li.todo-item {
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+  background-color: #ededed;
+  padding: 5px;
+  margin: 5px;
+  max-width: 50%;
+}
+
+.remove-icon {
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+}
